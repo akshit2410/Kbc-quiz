@@ -1,7 +1,7 @@
 import React from "react";
 import AnswerButton from "./answer-button";
 const Questions = ({
-  handleAns,
+  handleAns,resetTimer,
   data: { question, correct_answer, incorrect_answers },
 }) => {
   //check right or wrong.
@@ -10,6 +10,7 @@ const Questions = ({
     .map((a) => ({ sort: Math.random(), value: a }))
     .sort((a, b) => a.sort - b.sort)
     .map((a) => a.value);
+    // resetTimer()
   return (
     <>
       <div className="quiz flex justify-center items-center">

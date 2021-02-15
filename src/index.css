@@ -188,10 +188,6 @@ body {
   background: #fff;
 } 
 
-.fiftyHide > .L:last-of-type {
-  color: #000;
-  background-color: rgb(255, 255, 255) !important;
-}
 
 .fiftyHide > .L {
   color: #000;
@@ -199,3 +195,7 @@ body {
 }
 
 
+.fiftyHide > .L:last-of-type {
+  color: #000;
+  background-color: rgb(255, 255, 255) !important;
+}
